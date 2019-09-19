@@ -26,7 +26,9 @@ class School
   def sort
     sorted_students = {}
     @roster.each do |grade, students|
+      if sorted_students == nil
       sorted_students[grade] = @roster[students].sort
+      end
     end
     sorted_students
   end
