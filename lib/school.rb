@@ -23,4 +23,8 @@ class School
     @roster[students]
   end
 
+  def sort(students)
+    @roster[students]
+  end
+
 end
